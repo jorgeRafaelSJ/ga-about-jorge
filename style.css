@@ -1,0 +1,119 @@
+html, body, h1, h2, h3, h4, p, div {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+.container {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body{
+	font-size: 100%;font-family: 'Quantico', sans-serif;
+	background-color: white;
+}
+h1{
+	font-size: 40px;
+	color: white;
+	padding:20px;
+	text-shadow: 1px 1px 1px #000;
+}
+.banner img {
+	border: solid black 3px;
+	border-radius: 100px;
+	margin:30px auto 30px auto;
+}
+h2{
+	font-size: 20px;
+	padding: 10px;
+	margin: 0px;
+}
+.banner{
+	background-image: url(images/piano.jpg);
+	background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 40px 0 10px 0;
+    text-align: center;
+}
+.names{
+	background-color: #bbbbbb;
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+.content {
+	background-color: lightgrey;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.content p {
+	padding:50px;
+}
+.footer {
+	background-color: #bbbbbb;
+	padding: 50px;
+	text-align: right;
+	margin-top: 1px;
+	margin-bottom: 100px;
+}
+address{
+	display: inline-block;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: black;
+	padding:5px 5px 5px 5px;
+	border-radius: 15px;
+	float: left;
+	text-align: center;
+}
+.phone{
+	display: inline-block;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: black;
+	padding:5px 5px 5px 5px;
+ 	border-radius: 15px;	
+ 	float: left;
+ 	margin: 0 auto 0 auto;
+ 	text-align: center;
+}
+.email{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: black;
+	padding:5px 5px 5px 5px;
+	border-radius: 15px;
+	float: left;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: #bbbbbb;
+	color: black;
+}
+.video1 {
+	text-align: center;
+	padding-bottom: 50px;
+}
+iframe {
+	position: relative;
+}
+@media (max-width: 1088px){
+	.banner{
+		background-image: url(images/piano.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: left center;
+	}
+
+}
